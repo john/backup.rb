@@ -7,7 +7,7 @@ require 'erb'
 S3 = true
 BACKUPS = 5 # set to 0 if you want to save everything rather than rotating
 
-RAILS_ENV = 'production'
+RAILS_ENV ||= 'production'
 APP = 'phu'
 DATA_DIR = '../db/data'
 
