@@ -8,7 +8,6 @@ Usage:
  + S3 to true if you want backups moved to S3.
  + BACKUPS for the number of backups you want to save. Once this many have been archived, older ones are deleted for each new backup added. Set to 0 to save everything.
  + APP for the app name. Used by mysql and S3.
- + TABLES and FULL for where local mysqldumps are put.
 
 - Call with no arguments to back up entire db, or pass in table names as arguments to back up only those tables:
  ruby backup.rb
